@@ -1,0 +1,58 @@
+welcome intent-
+
+training
+just going to say hi
+heya
+hello hi
+howdy
+hey there
+
+resposes
+Hey there, how can I support you today? Feel free to explore the "Available Categories," check out our "Item Selection,"
+Hello, how may I be of assistance? Feel free to inquire about the "Categories Currently Offered," "Inventory of Available Items,"
+Greetings! How can I be of service? You're welcome to ask about "Categories in Stock," "List of Available Items,"
+Hi there! How may I assist you? You can inquire about "Available Categories," "Available Items"
+
+
+
+
+Fallback intent-
+respose-
+Apologies for any confusion earlier. To clarify, you can choose from the options "Available Categories," "Available Items,"
+
+
+
+Available category intent-
+
+training-
+available catgories
+Tell me the Available Categories
+Available Categories
+Share with me the list of categories that are currently open.
+Could you give me information on the categories that are presently on offer?
+
+
+responses-
+fullfilment from the database
+
+
+Available category intent-
+
+training-
+Please let me know about the products that are presently up for sale.
+Can you inform me about the products currently in stock?
+I'd like to know about the products that are currently available; could you elaborate?
+Could you share the range of products that are presently accessible?
+available products
+
+
+responses-
+fullfilment from the database
+
+
+
+
+
+
+
+

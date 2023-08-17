@@ -1,0 +1,29 @@
+CREATE TABLE users (
+    Id SERIAL PRIMARY KEY,
+    Name VARCHAR NOT NULL,
+    Email VARCHAR NOT NULL UNIQUE,
+    Password VARCHAR NOT NULL,
+    Admin INTEGER NOT NULL
+);
+
+CREATE TABLE category (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL UNIQUE,
+    user_id INTEGER NOT NULL
+);
+
+CREATE TABLE product (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    unit VARCHAR NOT NULL,
+    category_selection INTEGER NOT NULL,
+    rate INTEGER NOT NULL,
+    user_id INTEGER NOT NULL
+);
+
+CREATE TABLE booking (
+    id SERIAL PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    product_id INTEGER NOT NULL,
+    no INTEGER NOT NULL
+);
